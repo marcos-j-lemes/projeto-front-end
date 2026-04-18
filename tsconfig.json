@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es2024",
+        "module": "es2022",
+        "outDir": "./app/dist/js",
+        "strict": true,
+        "rootDir": "./",
+    },
+    "include": ["./app/src/**/*"]
+}
