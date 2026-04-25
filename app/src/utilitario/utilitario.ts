@@ -1,3 +1,8 @@
+interface Iatributos {
+    [chave: string]: string | string[] | undefined; 
+}
+
+
 const renderizar = (elemento: HTMLElement): void => {
 
     // Garantir que possui um elemento HTML
@@ -22,7 +27,6 @@ const criarElemento = (tag: string, conteudo: string | null = null, atributos?: 
 
     return elemento;
 }
-
 
 
 export { criarElemento, renderizar }
